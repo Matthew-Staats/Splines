@@ -568,7 +568,7 @@ public class BezierCurves extends Application {
 
     private void createTopBar() {
 //        clear = new Button("Clear -Dedicated to Camille Staats");
-        clear = new Button("The Camille Staats Clear Button");
+        clear = new Button("The Camille Clear Button");
         clear.setOnMouseClicked(event -> {
             clearGoldenCircles();
         });
